@@ -166,6 +166,7 @@ img {
 
 .order-button {
     background-color: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     line-height: 1.5;
     font-size: 16px;
@@ -181,7 +182,6 @@ img {
 
 .order-button:hover, .order-button:focus {
     background-color: #404BBF;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .visually-hidden {
@@ -292,6 +292,10 @@ img {
 }
 
 .linked-icon-bg:hover, .linked-icon-bg:focus {
+    background-color: #404bbf;
+}
+
+.footer-icon-bg:hover, .footer-icon-bg:focus {
     background-color: #31d0aa;
 }
 
